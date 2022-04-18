@@ -1,4 +1,3 @@
-from asyncore import write
 import string
 madlibFile = open('madlib.txt', 'r')
 split_text = (madlibFile.read()).split()
